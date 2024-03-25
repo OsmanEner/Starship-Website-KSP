@@ -1,0 +1,50 @@
+@font-face {
+    font-family: DIN;
+    src: url(assets/main_assets/D-DIN.woff2);
+}
+
+@font-face {
+    font-family: DIN-BOLD;
+    src: url(assets/main_assets/D-DIN-Bold.woff2)
+}
+
+.hdr {
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+}
+
+.title_text {
+    font-family: DIN;
+    color: white;
+    position: absolute;
+    text-align: left;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+}
+
+.spacex_logo {
+    height: 70%;
+    padding-left: 520px;
+    vertical-align: middle;
+}
+
+.text {
+    font-family: DIN;
+    color: white;
+    position: absolute;
+    text-align: left;
+    font-weight: 500;
+    font-size: medium;
+    -webkit-font-smoothing: antialiased;
+}
+
+.button_text {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 90%;
+    cursor: pointer;
+    font-family: DIN-BOLD;
+}
