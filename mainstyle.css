@@ -23,10 +23,56 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.page_title_text {
+    font-family: DIN-BOLD;
+    color: white;
+    font-weight: 100;
+    font-size: xx-large;
+    -webkit-font-smoothing: antialiased;
+}
+
+.updates_image {
+    text-align: center;
+    padding-top: 70px;
+}
 .spacex_logo {
     height: 70%;
     padding-left: 520px;
     vertical-align: middle;
+}
+
+#vertical_updates {
+    width: 1200px;
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.date_text_1 {
+    color: rgb(161, 161, 161);
+    font-family: DIN-BOLD;
+    font-size: larger;
+    margin-left: 368px;
+}
+
+.updates_title {
+    color: rgb(255, 255, 255);
+    font-family: DIN-BOLD;
+    font-size: xx-large;
+    margin-left: 368px;
+}
+
+.updates_text {
+    color: rgb(255, 255, 255);
+    font-family: DIN;
+    font-size: medium;
+    margin-left: 368px;
+}
+
+p {
+    margin: 25px;
 }
 
 .text {
@@ -44,7 +90,7 @@
     border: none;
     outline: none;
     color: white;
-    font-size: 90%;
+    font-size: 70%;
     cursor: pointer;
     font-family: DIN-BOLD;
 }
