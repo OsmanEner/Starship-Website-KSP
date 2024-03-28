@@ -69,6 +69,8 @@
     font-family: DIN;
     font-size: medium;
     margin-left: 368px;
+    margin-right: 368px;
+    line-height: 1.8;
 }
 
 p {
